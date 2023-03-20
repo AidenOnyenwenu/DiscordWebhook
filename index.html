@@ -8,13 +8,13 @@
 </head>
 
 <body>
-  <button onmouseover="sendMessage()">Send</button>
+  <button onclick="sendMessage()">Send</button>
 </body>
 
 <script>
   function sendMessage() {
     const request = new XMLHttpRequest();
-    request.open("POST", "https://discord.com/api/webhooks/1087407204283449446/b0ZO8NVhlhR7HCalZrh6IFWJvnH_bRbYGeaIgycUQY9_1LrXydXqmE-6bPpZInSGUtly");
+    request.open("POST", "WEBHOOK URL HERE");
 
     request.setRequestHeader('Content-type', 'application/json');
 
