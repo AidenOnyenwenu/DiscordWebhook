@@ -1,4 +1,10 @@
-html {
-  height: 100%;
-  width: 100%;
+* {
+  background-color: #ff0055;
+}
+
+button {
+  padding: 4px 8px;
+  border: none;
+  border-radius: 20%;
+  background: white;
 }
