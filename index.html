@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Discord Webhook Tutorial</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
@@ -13,22 +14,7 @@
 </body>
 
 <script>
-  function sendMessage() {
-    const request = new XMLHttpRequest();
-    request.open("POST", "WEBHOOK URL HERE");
 
-    request.setRequestHeader('Content-type', 'application/json');
-
-    const params = {
-      username: "My Webhook Name",
-      avatar_url: "",
-      content: "The message to send"
-    }
-
-    request.send(JSON.stringify(params));
-  }
-
-  console.log(`Webhook name: ${params.username}`);
 </script>
 
 </html>
